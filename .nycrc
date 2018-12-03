@@ -1,0 +1,7 @@
+{
+    "include": [ "packages/**" ],
+    "reporter": [
+        "text",
+        "text-summary"
+    ]
+}
