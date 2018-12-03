@@ -1,0 +1,24 @@
+{
+    "name": "@futagoza/esmb",
+    "private": true,
+    "workspaces": [
+        "packages/*",
+        "test"
+    ],
+    "scripts": {
+        "lint": "eslint .",
+        "run-tests": "mocha --recursive",
+        "test": "eslint . && nyc mocha --recursive",
+        "coverage": "nyc report --reporter=text-lcov | coveralls"
+    },
+    "devDependencies": {
+        "coveralls": "3.0.2",
+        "eslint": "5",
+        "eslint-config-futagozaryuu": "5",
+        "mocha": "5.2.0",
+        "nyc": "13.1.0"
+    },
+    "engines": {
+        "node": ">= 6"
+    }
+}
