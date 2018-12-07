@@ -26,7 +26,7 @@ function parse( source ) {
         comments: false,
         experimental: true,
         raw: false,
-        rawIdentifier: true,
+        rawIdentifier: false,
         node: false,
 
     } );
