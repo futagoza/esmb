@@ -1,0 +1,31 @@
+{
+    "name": "@esmb/parser",
+    "version": "0.0.0",
+    "description": "A performant JavaScript ES2015+ parser",
+    "keywords": [
+        "parser",
+        "javascript",
+        "ecmascript",
+        "es2015",
+        "es2016",
+        "es2017",
+        "es2018",
+        "esnext",
+        "jsx",
+        "performance",
+        "tolerant",
+        "estree",
+        "ast",
+        "lightweight"
+    ],
+    "repository": "https://github.com/futagoza/esmb/tree/master/packages/parser",
+    "license": "MIT",
+    "author": "Futago-za Ryuu <futagoza.ryuu@gmail.com>",
+    "main": "index.js",
+    "dependencies": {
+        "cherow": "~1.6.0"
+    },
+    "engines": {
+        "node": ">= 6"
+    }
+}

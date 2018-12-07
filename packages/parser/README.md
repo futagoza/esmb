@@ -1,0 +1,1 @@
+This is the default parser for [esmb](https://www.npmjs.com/package/esmb), currently just a wrapper around [https://github.com/cherow/cherow](https://github.com/cherow/cherow) with the desired options set, which are not configurable.
