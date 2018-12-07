@@ -9,10 +9,10 @@
         "lint": "eslint .",
         "run-tests": "mocha --recursive",
         "test": "eslint . && nyc mocha --recursive",
-        "coverage": "nyc report --reporter=text-lcov | coveralls"
+        "coverage": "nyc report --reporter=text-lcov | codecov"
     },
     "devDependencies": {
-        "coveralls": "3.0.2",
+        "codecov": "3.1.0",
         "eslint": "5",
         "eslint-config-futagozaryuu": "5",
         "mocha": "5.2.0",
